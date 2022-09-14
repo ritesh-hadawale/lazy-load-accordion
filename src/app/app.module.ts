@@ -10,6 +10,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AccordionComponent } from './accordion/accordion.component';
 import { AccordionDirective } from './accordion/accordion.directive';
 import { PostComponent } from './post/post.component';
+import { ProgressiveloadComponent } from './progressiveload/progressiveload.component';
+import * as $ from 'jquery';
+import { PrgressiveAccordionComponent } from './prgressive-accordion/prgressive-accordion.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,8 @@ import { PostComponent } from './post/post.component';
     AccordionComponent,
     AccordionDirective,
     PostComponent,
+    ProgressiveloadComponent,
+    PrgressiveAccordionComponent,
   ],
   imports: [
     BrowserModule,
